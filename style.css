@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+html {
+    height: 100%;
+    background-color: #30362F;
+    background-repeat: no-repeat;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+/*HEADER*/
+
+.header {
+    margin-top: 100px;
+}
+
+.title {
+    color: #fff;
+}
+
+/*CONTAINERS*/
+
+.content {
+    background-color: #625834;
+
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+    width: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+/*--------------*/
+.year-container {
+    display: flex;
+    flex-direction: row;
+
+    font-size: 1.3rem;
+    align-items: center;
+    gap: 10px;
+}
+
+#year {
+    letter-spacing: 1.3px;
+    border-radius: 5px;
+    width: 200px;
+    padding: 6px 12px;
+    background: rgb(255, 255, 255);
+    border: none;
+    font-size: 1.4rem;
+    color: rgb(0, 0, 0);
+    height: 46px;
+    appearance: none;
+    transition: all 0.4s ease-in 0s;
+}
+
+#year:hover{
+    border-radius: 10px;
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+#year:focus{
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+/*------------*/
+
+label.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.sex {
+  position: relative;
+  font-size: 0.9rem;
+  margin-top: 8px;
+  margin-left: 7px;
+  bottom: 5px;
+}
+
+.checks {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.check-container {
+    display: flex;
+    flex-direction: row;
+
+    font-size: 1.2rem;
+    align-items: center;
+    gap: 10px;
+
+    margin-top: 25px;
+  }
+
+.checkbox-wrapper-53 {
+  display: flex;
+  flex-direction: row;
+}
+
+.checkbox-wrapper-53 input[type="checkbox"] {
+    visibility: hidden;
+    display: none;
+  }
+
+  .checkbox-wrapper-53 .container {
+    cursor: pointer;
+    font-size: 18px;
+    user-select: none;
+  }
+
+  .checkmark {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 1.3em;
+    width: 1.3em;
+    background-color: #DA7422;
+    border-radius: 100%;
+    background: #DA7422;
+    box-shadow: 3px 3px 5px #48484867,
+                -3px -3px 5px #7e7e7e00;
+  }
+
+  .checkbox-wrapper-53 .container input:checked ~ .checkmark {
+    box-shadow: inset 3px 3px 5px #914f1943,
+                inset -3px -3px 5px #914f193c;
+  }
+
+  .checkbox-wrapper-53 .checkmark:after {
+    content: "";
+    position: absolute;
+    opacity: 0;
+  }
+
+  .checkbox-wrapper-53 .container input:checked ~ .checkmark:after {
+    opacity: 1;
+  }
+
+  .checkbox-wrapper-53 .container .checkmark:after {
+    left: 0.45em;
+    top: 0.25em;
+    width: 0.25em;
+    height: 0.5em;
+    border: solid #914f19;
+    border-width: 0 0.15em 0.15em 0;
+    transform: rotate(45deg);
+    transition: all 250ms;
+  }
+
+  .man, .woman {
+    display: none;
+  }
+
+/*-------------*/
+
+.button {
+  background: #DA7422;
+  border-radius: 999px;
+  box-shadow: #914f19 0px 25px 50px -12px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+
+  margin-top: 30px;
+  margin-left: 50%;
+  margin-bottom: 30px;
+  transform: translate(-50%);
+}
+
+/*-------------*/
+
+.res {
+    margin-left: 110%;
+    transform: translate(-50%);
+    width: 350px;
+    align-self: center;
+}
+
+#foto {
+  width: 180px;
+  border-radius: 50px;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+/*-------------*/
+
+/*-------------*/
+
+.footer {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}

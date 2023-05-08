@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificar idade</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="title">Verificador de idade</h1>
+    </header>
+    <div class="content">
+        <div class="year-container">
+            <p class="year-text">Ano de nascimento:</p>
+            <input id="year" type="text">
+        </div>
+
+        <div class="checks">
+            <div class="check-container">
+                <div class="checkbox-wrapper-53">
+                    <label class="container">
+                        <input class="man" type="radio" name="radsex">
+                        <div class="checkmark"></div>
+                    </label>
+                    <p class="sex">Masculino</p>
+                </div>
+            </div>
+            <div class="check-container">
+                <div class="checkbox-wrapper-53">
+                    <label class="container">
+                        <input class="woman" type="radio" name="radsex">
+                        <div class="checkmark"></div>
+                    </label>
+                    <p class="sex">Feminino</p>
+                </div>
+            </div>
+        </div>
+
+        <button onclick="verificar()" class="button">Verificar</button>
+
+        <p class="res">Preencha os dados para ver os resultados.</p>
+    </div>
+    <footer>
+        <p class="footer">Made by: Bruno in</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
