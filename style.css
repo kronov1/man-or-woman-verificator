@@ -1,85 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #fff;
-}
-
-html {
-  height: 100%;
-  background-color: #30362F;
-  background-repeat: no-repeat;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 40px;
-}
-
-/*HEADER*/
-.header {
-  margin-top: 100px;
-}
-
-.header .title {
-  color: #fff;
-}
-
-/*CONTAINERS*/
-.content {
-  background-color: #625834;
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  width: auto;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-}
-
-/*--------------*/
-.content .year-container {
-  display: flex;
-  flex-direction: row;
-  font-size: 1.3rem;
-  align-items: center;
-  gap: 10px;
-}
-
-.content .year-container #year {
-  letter-spacing: 1.3px;
-  border-radius: 5px;
-  width: 200px;
-  padding: 6px 12px;
-  background: rgb(255, 255, 255);
-  border: none;
-  font-size: 1.4rem;
-  color: rgb(0, 0, 0);
-  height: 46px;
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
-  transition: all 0.4s ease-in 0s;
-  outline: none;
-}
-.content .year-container #year:hover {
-  border-radius: 10px;
-  outline: none;
-  box-shadow: none;
-  border: none;
-}
-.content .year-container #year:hover:focus {
-  border-top-left-radius: 0px;
-  border-bottom-left-radius: 0px;
-  outline: none;
-  box-shadow: none;
-  border: none;
-}
-
-/*------------*/
+/*MODULOS*/
 .checks .check-container .checkbox-wrapper-53 label.container {
   display: flex;
   flex-direction: row;
@@ -164,6 +83,88 @@ body {
   transition: all 250ms;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+html {
+  height: 100%;
+  background-color: #30362F;
+  background-repeat: no-repeat;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+/*HEADER*/
+.header {
+  margin-top: 100px;
+}
+
+.header .title {
+  color: #fff;
+}
+
+/*CONTAINERS*/
+.content {
+  background-color: #625834;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+/*--------------*/
+.content .year-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.3rem;
+  align-items: center;
+  gap: 10px;
+}
+
+.content .year-container #year {
+  letter-spacing: 1.3px;
+  border-radius: 5px;
+  width: 200px;
+  padding: 6px 12px;
+  background: rgb(255, 255, 255);
+  border: none;
+  font-size: 1.4rem;
+  color: rgb(0, 0, 0);
+  height: 46px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  transition: all 0.4s ease-in 0s;
+  outline: none;
+}
+.content .year-container #year:hover {
+  border-radius: 10px;
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+.content .year-container #year:hover:focus {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+
+/*------------*/
 .man, .woman {
   display: none;
 }
